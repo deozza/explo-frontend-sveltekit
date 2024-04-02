@@ -2,8 +2,17 @@
 
 </script>
 
-<h1>Title from component</h1>
+<h1><slot name="header"/></h1>
 
+<p>
+    <slot name="description"/>
+</p>
 <style>
+
+    h1 {
+        color: red;
+        font-size: x-large;
+        text-decoration: underline;
+    }
     
 </style>

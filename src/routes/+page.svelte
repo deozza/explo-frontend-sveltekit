@@ -4,10 +4,11 @@ import Header from "$lib/Header.svelte";
 
 </script>
 
-<Header />
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<Header>
+    <span slot="header">Welcome to SvelteKit</span>
+    <span slot="description">Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</span>
+</Header>
 
 <style>
-    
+
 </style>
