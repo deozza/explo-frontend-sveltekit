@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { onMount } from "svelte";
+    import CatImage from "$lib/CatImage.svelte";
 
     let catUrl: string = '';
 
@@ -15,7 +16,7 @@
 
 <h1>Cat</h1>
 
-<img src="{catUrl}" alt="cat">
+<CatImage {catUrl}/>
 
 <style>
 
