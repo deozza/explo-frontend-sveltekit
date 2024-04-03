@@ -1,12 +1,15 @@
 <script lang="ts">
+    import { number } from "../store";
+
     let count: number = 0;
+    number.subscribe(value => count = value);
 
     function increment() {
-        count += 1;
+        number.update((n) => n + 1);
     }
 
     function decrement() {
-        count -= 1;
+        number.update((n) => n - 1);    
     }
 
 </script>
