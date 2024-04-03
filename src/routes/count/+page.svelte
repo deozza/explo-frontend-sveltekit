@@ -16,3 +16,9 @@
 <button on:click={decrement}>-</button>
 <p>Count: {count}</p>
 <button on:click={increment}>+</button>
+
+{#if count % 2 === 0}
+    <p>Count is even</p>
+{:else}
+    <p>Count is odd</p>
+{/if}
