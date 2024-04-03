@@ -1,3 +1,7 @@
+<script lang="ts">
+    import '../app.css'
+</script>
+
 <nav>
     <ul>
         <li><a href="/">Home</a></li>
@@ -15,3 +19,12 @@
 <main>
     <slot></slot>
 </main>
+
+<p>In layout</p>
+
+<style>
+    p {
+        color: blue;
+    }
+</style>
+

@@ -9,6 +9,11 @@ import Header from "$lib/Header.svelte";
     <span slot="description">Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</span>
 </Header>
 
-<style>
 
+<p>In page</p>
+
+<style>
+    p{
+        color: brown;
+    }
 </style>
